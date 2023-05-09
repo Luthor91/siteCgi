@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creer un compte</title>
+</head>
+<body>
+	<header>
+		<h1>Mon site web</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+      <li><a href="profil.html">Mon Profil</a></li>
+			<li><a href="signin.html">Creation de compte</a></li>
+			<li><a href="login.html">Connexion</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">A propos</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Creer un compte</h2>
+		<form method="post" action="formHandler.cgi">
+			<h3 style="margin-left: 20px;">Informations personnelles</h3>
+			<label style="margin-left: 40px;" for="prenom">Prenom :</label>
+			<input style="margin-left: 20px;" type="text" id="prenom" name="prenom" required><br>
+
+			<label style="margin-left: 40px;" for="nom">Nom :</label>
+			<input style="margin-left: 37px;" type="text" id="nom" name="nom" required><br><br>
+
+			<label style="margin-left: 40px;" for="dateNaissance">Date de naissance :</label>
+			<input style="margin-left: 40px;" type="date" id="dateNaissance" name="dateNaissance"><br>
+
+			<label style="margin-left: 40px;" for="tel">Numero de telephone :</label>
+			<input style="margin-left: 16px;" type="tel" id="tel" name="tel">
+
+			<h3 style="margin-left: 20px;">Informations de connexions</h3>
+			<label style="margin-left: 40px;" for="username">Nom d'utilisateur :</label>
+			<input style="margin-left: 14px;" type="text" id="username" name="username" required><br>
+
+			<label style="margin-left: 40px;" for="email">Adresse mail :</label>
+			<input style="margin-left: 40px;" type="email" id="email" name="email" required><br>
+
+			<label style="margin-left: 40px;" for="password">Mot de passe :</label>
+			<input style="margin-left: 40px;" type="password" id="password" name="password" required><br><br>
+			<input type="submit" value="Creer un compte">
+		</form>
+		<p>Deja inscrit ? <a href="login.html">Se connecter</a></p>
+	</main>
+	<footer>
+		<a href="contact.html">Contact</a>
+		<p>&copy; 2023 Mon site web</p>
+	</footer>
+</body>
+</html>

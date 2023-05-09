@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Creer un compte</title>
+</head>
+<body>
+	<header>
+		<h1>Mon site web</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+      <li><a href="profil.html">Mon Profil</a></li>
+			<li><a href="signin.html">Creation de compte</a></li>
+			<li><a href="login.html">Connexion</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">A propos</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Contact</h2>
+		<form action="contactHandler.cgi" method="POST">
+			<label for="sujet" style="margin-left: 40px;" >Sujet du message :</label> <br>
+			<input type="text" id="sujet" name="sujet" required style="margin-left: 60px; width: 400px;"><br><br>
+			<label for="message" style="margin-left: 40px;" >Message :</label> <br>
+			<textarea id="message" name="message" maxlength="2500" rows="4" cols="50" style="width: 400px; height: 150px; margin-left: 60px;" required></textarea><br><br>
+			<input type="submit" value="Envoyer">
+		</form>
+	</main>
+  <p>Besoin d'informations ? <a href="about.html">regardez la FAQ</a></p>
+	<footer>
+		<a href="contact.html">Contact</a>
+		<p>&copy; 2023 Mon site web</p>
+	</footer>
+</body>
+</html>
