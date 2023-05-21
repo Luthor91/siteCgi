@@ -20,12 +20,12 @@
 	</nav>
 	<main>
 		<h2>Connexion</h2>
-		<form action="index.html" method="post">
+		<form action="../cgi/loginHandler.cgi" method="post">
 			<label style="margin-left: 40px;" for="username">Nom d'utilisateur :</label>
 			<input style="margin-left: 13px;" type="text" id="username" name="username" required><br><br>
 			<label style="margin-left: 40px;" for="password">Mot de passe :</label>
 			<input style="margin-left: 40px;" type="password" id="password" name="password" required><br><br>
-			<input type="submit" value="Se connecter">
+			<input type="submit" name="form" value="Connexion">
 		</form>
 		<p>Pas encore inscrit ? <a href="signup.html">Creez un compte</a></p>
 	</main>

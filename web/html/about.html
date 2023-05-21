@@ -1,80 +1,61 @@
 <!DOCTYPE html>
-<html style="font-size: 16px;" lang="fr"><head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <title>À propos de</title>
-    <link rel="stylesheet" href="../css/nicepage.css" media="screen">
-<link rel="stylesheet" href="../css/À-propos-de.css" media="screen">
-    <script class="u-script" type="text/javascript" src="../js/jquery.js" defer=""></script>
-    <script class="u-script" type="text/javascript" src="../js/nicepage.js" defer=""></script>
-    <meta name="generator" content="Nicepage 5.9.10, nicepage.com">
-    <link id="u-theme-google-font" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i|Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i">
-    
-    
-    <script type="application/ld+json">{
-		"@context": "http://schema.org",
-		"@type": "Organization",
-		"name": "",
-		"logo": "images/default-logo.png"
-}</script>
-    <meta name="theme-color" content="#478ac9">
-    <meta property="og:title" content="À propos de">
-    <meta property="og:type" content="website">
-  <meta data-intl-tel-input-cdn-path="intlTelInput/"></head>
-  <body class="u-body u-xl-mode" data-lang="fr"><header class="u-clearfix u-header u-header" id="sec-c34a"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
-        <a href="https://nicepage.com" class="u-image u-logo u-image-1">
-          <img src="images/default-logo.png" class="u-logo-image u-logo-image-1">
-        </a>
-        <nav class="u-menu u-menu-dropdown u-offcanvas u-menu-1">
-          <div class="menu-collapse" style="font-size: 1rem; letter-spacing: 0px;">
-            <a class="u-button-style u-custom-left-right-menu-spacing u-custom-padding-bottom u-custom-top-bottom-menu-spacing u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="#">
-              <svg class="u-svg-link" viewBox="0 0 24 24"><use xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="#menu-hamburger"></use></svg>
-              <svg class="u-svg-content" version="1.1" id="menu-hamburger" viewBox="0 0 16 16" x="0px" y="0px" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg"><g><rect y="1" width="16" height="2"></rect><rect y="7" width="16" height="2"></rect><rect y="13" width="16" height="2"></rect>
-</g></svg>
-            </a>
-          </div>
-          <div class="u-nav-container">
-            <ul class="u-nav u-unstyled u-nav-1"><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Accueil.html" style="padding: 10px 20px;">Accueil</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="À-propos-de.html" style="padding: 10px 20px;">À propos de</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Contact.html" style="padding: 10px 20px;">Contact</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link u-text-active-palette-1-base u-text-hover-palette-2-base" href="Page-1.html" style="padding: 10px 20px;">Page 1</a>
-</li></ul>
-          </div>
-          <div class="u-nav-container-collapse">
-            <div class="u-black u-container-style u-inner-container-layout u-opacity u-opacity-95 u-sidenav">
-              <div class="u-inner-container-layout u-sidenav-overflow">
-                <div class="u-menu-close"></div>
-                <ul class="u-align-center u-nav u-popupmenu-items u-unstyled u-nav-2"><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Accueil.html">Accueil</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="À-propos-de.html">À propos de</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Contact.html">Contact</a>
-</li><li class="u-nav-item"><a class="u-button-style u-nav-link" href="Page-1.html">Page 1</a>
-</li></ul>
-              </div>
-            </div>
-            <div class="u-black u-menu-overlay u-opacity u-opacity-70"></div>
-          </div>
-        </nav>
-      </div></header>
-    <section class="u-clearfix u-section-1" id="sec-2cb8">
-      <div class="u-clearfix u-sheet u-sheet-1"></div>
+<html>
+<head>
+	<title>Creer un compte</title>
+</head>
+<body>
+	<header>
+		<h1>Mon site web</h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Accueil</a></li>
+      <li><a href="profil.html">Mon Profil</a></li>
+			<li><a href="signin.html">Creation de compte</a></li>
+			<li><a href="login.html">Connexion</a></li>
+      <li><a href="faq.html">FAQ</a></li>
+			<li><a href="contact.html">Contact</a></li>
+			<li><a href="about.html">A propos</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>A propos...</h2>
+      <p>Recherchez une question :</p>
+    <form action="faqHandler.cgi" method="POST"></form>
+      <input type="text" name="search">
+      <button type="submit">Rechercher</button>
+    </form>
+    <section>
+      <article>
+        <h2>Qu'est-ce que CGI ?</h2>
+        <p>CGI (Common Gateway Interface) est une interface de programmation qui permet a des applications web de communiquer avec des serveurs HTTP pour generer des pages web dynamiques.</p>
+      </article>
+
+      <article>
+        <h2>Quels sont les avantages de CGI par rapport a d'autres technologies web ?</h2>
+        <p>CGI offre une grande flexibilite et une grande liberte pour la conception de pages web, permettant une personnalisation complete des pages en fonction des besoins specifiques du projet. Il est egalement compatible avec de nombreux langages de programmation et de bases de donnees, offrant ainsi une grande compatibilite avec les differentes technologies web.</p>
+      </article>
+
+      <article>
+        <h2>Comment puis-je me connecter a mon compte utilisateur ?</h2>
+        <p>Pour vous connecter a votre compte utilisateur, vous devez acceder a la page de connexion et saisir votre nom d'utilisateur et votre mot de passe. Si vous avez oublie votre mot de passe, vous pouvez cliquer sur le lien "Mot de passe oublie" pour reinitialiser votre mot de passe.</p>
+      </article>
+
+      <article>
+        <h2>Comment puis-je modifier mes informations de profil ?</h2>
+        <p>Pour modifier vos informations de profil, vous devez acceder a votre page de profil et cliquer sur le bouton "Modifier". Vous pouvez ensuite saisir les informations que vous souhaitez modifier et cliquer sur le bouton "Enregistrer" pour sauvegarder les modifications.</p>
+      </article>
+
+      <article>
+        <h2>Comment puis-je contacter l'assistance technique ?</h2>
+        <p>Pour contacter l'assistance technique, vous pouvez utiliser le formulaire de contact disponible sur la page "Contact" de notre site web. Vous pouvez egalement envoyer un e-mail a notre adresse d'assistance technique, qui est indiquee sur la page "Contact".</p>
+      </article>
     </section>
-    
-    
-    <footer class="u-align-center u-clearfix u-footer u-grey-80 u-footer" id="sec-3df2"><div class="u-clearfix u-sheet u-sheet-1">
-        <p class="u-small-text u-text u-text-variant u-text-1">Texte Bas de Page</p>
-      </div></footer>
-    <section class="u-backlink u-clearfix u-grey-80">
-      <a class="u-link" href="https://nicepage.com/website-templates" target="_blank">
-        <span>Website Templates</span>
-      </a>
-      <p class="u-text">
-        <span>created with</span>
-      </p>
-      <a class="u-link" href="" target="_blank">
-        <span>Website Builder Software</span>
-      </a>. 
-    </section>
-  
-</body></html>
+	</main>
+  <p>Vous ne trouvez pas de réponses a votre probleme? ? <a href="contact.html">posez votre question</a></p>
+	<footer>
+		<a href="contact.html">Contact</a>
+		<p>&copy; 2023 Mon site web</p>
+	</footer>
+</body>
+</html>
